@@ -42,7 +42,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 
 <a href="https://wa.me/6282275403263"><img src="https://img.shields.io/badge/Contact iky-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1"><img src="https://img.shields.io/badge/Join Official Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="http://chat.whatsapp.com/HjvNhA5PfSS0sJ4ejnLDWp"><img src="https://img.shields.io/badge/Join Official Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 <a href="https://youtube.com/@BotzAku"><img src="https://img.shields.io/badge/Subscribe BotzAku-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@BotzAku" /><br>
 
@@ -55,7 +55,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 <p align="left">
 
 Klik link di atas atau Langsung Masukkan Nomor Dana Berikut :
-```json
+```
 > 085369097142
 ```
 </p>
