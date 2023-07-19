@@ -36,9 +36,28 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 > npm start
 ```
 
-## Note:
-* You can request a case in my [`WhatsApp`](http://wa.me/6282275403263).
+## ```Connect With Me```
 
-# Thanks To
-* [`Telegraf`](https://github.com/telegraf/telegraf)
-* [`iky`](https://github.com/iky94951)
+<p align="center">
+
+<a href="https://wa.me/6282275403263"><img src="https://img.shields.io/badge/Contact Deepak-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<a href="https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+<a href="https://youtube.com/@BotzAku"><img src="https://img.shields.io/badge/Subscribe Deepak-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@dreamguydeepak" /><br>
+
+</p>
+
+## ```Donate Me```
+
+- [`FamPay`](https://i.ibb.co/j4dTYk3/IMG-20221229-WA0243.jpg)
+
+<p align="left">
+
+Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
+
+</p>
+
+## ```Bot Support Groups```
+
+- [`GC`](https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1)
