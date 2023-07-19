@@ -50,11 +50,11 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 
 ## ```Donate Me```
 
-![Dana](https://link.dana.id/qr/10cmy14hh)
+* [Dana](https://link.dana.id/qr/10cmy14hh)
 
 <p align="left">
 
-Scan QR di atas atau Langsung Masukkan Nomor Dana Berikut :
+Klik link di atas atau Langsung Masukkan Nomor Dana Berikut :
 * 085369097142
 </p>
 
