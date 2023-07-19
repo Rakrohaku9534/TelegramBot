@@ -1,5 +1,5 @@
 # BotzAku Telegram Bot
-![`BotzAku`](https://telegra.ph/file/f3e136d8303a429bdd9cd.jpg)
+[BotzAku](https://telegra.ph/file/f3e136d8303a429bdd9cd.jpg)
 
 # Installation
 
