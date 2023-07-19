@@ -1,4 +1,4 @@
-# LoL Human Telegram Bot
+# BotzAku Telegram Bot
 
 # Installation
 
@@ -9,8 +9,8 @@
 
 ## Cloning this repo
 ```cmd
-> git clone https://github.com/LoL-Human/TelegramBot-NodeJS
-> cd TelegramBot-NodeJS
+> git clone https://github.com/BotzIky/TelegramBot
+> cd TelegramBot
 ```
 
 ## Install the package
@@ -19,13 +19,12 @@
 ```
 
 ## Edit config file
-Edit the required value in `config.json`. You can get the apikey at [`LoL Human Rest API`](http://api.lolhuman.xyz/). And get bot token at [`@BotFather`](http://t.me/BotFather).
+Edit the required value in `config.json`. Get bot token at [`@BotFather`](http://t.me/BotFather).
 ```json
 {
-    "apikey": "",
     "bot_token": "",
-    "owner": "LoL Human",
-    "ownerLink": "https://t.me/LoLHumen",
+    "owner": "iikyy",
+    "ownerLink": "https://t.me/OwnerBot",
     "version": "1.0.0",
     "prefix": "/"
 }
