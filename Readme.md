@@ -24,7 +24,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 {
     "bot_token": "",
     "owner": "iikyy",
-    "ownerLink": "https://t.me/OwnerBot",
+    "ownerLink": "https://t.me/OwnerGrub",
     "version": "1.0.0",
     "prefix": "/"
 }
@@ -36,9 +36,8 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 ```
 
 ## Note:
-* You can request a case in my [`WhatsApp`](http://wa.me/62895418200111).
+* You can request a case in my [`WhatsApp`](http://wa.me/6282275403263).
 
 # Thanks To
 * [`Telegraf`](https://github.com/telegraf/telegraf)
-* [`Pais`](https://github.com/Paiiss)
-* `Ben`
+* [`iky`](https://github.com/iky94951)
