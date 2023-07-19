@@ -3,23 +3,23 @@
 
 # Installation
 
-## Windows
+## ```Windows```
 * [`Download Node JS`](https://nodejs.org/en/download/)
 * [`Download Git`](https://git-scm.com/download/win)
 
 
-## Cloning this repo
+## ```Cloning this repo```
 ```cmd
 > git clone https://github.com/BotzIky/TelegramBot
 > cd TelegramBot
 ```
 
-## Install the package
+## ```Install the package```
 ```cmd
 > npm i
 ```
 
-## Edit config file
+## ```Edit config file```
 Edit the required value in `config.json`. Get bot token at [`@BotFather`](http://t.me/BotFather).
 ```json
 {
@@ -31,7 +31,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 }
 ```
 
-## Run the bot
+## ```Run the bot```
 ```cmd
 > npm start
 ```
@@ -56,10 +56,6 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 
 Klik link di atas atau Langsung Masukkan Nomor Dana Berikut :
 ```cmd
-* 085369097142
+085369097142
 ```
 </p>
-
-## ```Bot Support Groups```
-
-- [`GC`](https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1)
