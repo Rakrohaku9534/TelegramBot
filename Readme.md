@@ -35,7 +35,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 ```cmd
 > npm start
 ```
-
+# Contact 
 ## ```Connect With Me```
 
 <p align="center">
@@ -55,7 +55,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 <p align="left">
 
 Klik link di atas atau Langsung Masukkan Nomor Dana Berikut :
-```cmd
+```json
 > 085369097142
 ```
 </p>
