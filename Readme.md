@@ -54,7 +54,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 
 <p align="left">
 
-Klik link di atas atau Langsung Masukkan Nomor Dana Berikut :
+Klik link Di Atas Atau Langsung Masukkan Nomor Dana Berikut :
 ```
 085369097142
 ```
