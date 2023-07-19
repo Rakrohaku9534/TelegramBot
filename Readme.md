@@ -40,22 +40,22 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 
 <p align="center">
 
-<a href="https://wa.me/6282275403263"><img src="https://img.shields.io/badge/Contact Deepak-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/6282275403263"><img src="https://img.shields.io/badge/Contact iky-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1"><img src="https://img.shields.io/badge/Join Official Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://youtube.com/@BotzAku"><img src="https://img.shields.io/badge/Subscribe Deepak-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@dreamguydeepak" /><br>
+<a href="https://youtube.com/@BotzAku"><img src="https://img.shields.io/badge/Subscribe BotzAku-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@BotzAku" /><br>
 
 </p>
 
 ## ```Donate Me```
 
-- [`FamPay`](https://i.ibb.co/j4dTYk3/IMG-20221229-WA0243.jpg)
+- [`Dana`](https://i.ibb.co/j4dTYk3/IMG-20221229-WA0243.jpg)
 
 <p align="left">
 
-Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe and FamPay.
-
+Scan QR di atas atau Langsung Masukkan Nomor Dana Berikut :
+* 085369097142
 </p>
 
 ## ```Bot Support Groups```
