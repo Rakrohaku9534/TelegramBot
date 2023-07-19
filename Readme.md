@@ -50,7 +50,7 @@ Edit the required value in `config.json`. Get bot token at [`@BotFather`](http:/
 
 ## ```Donate Me```
 
-- [`Dana`](https://i.ibb.co/j4dTYk3/IMG-20221229-WA0243.jpg)
+![Dana](https://link.dana.id/qr/10cmy14hh)
 
 <p align="left">
 
