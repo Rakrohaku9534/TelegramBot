@@ -17,34 +17,6 @@ if (bot_token == '') {
 
 const bot = new Telegraf(bot_token)
 
-bot.on('new_chat_members', async (lol) => {
-	var message = lol.message
-	var pp_group = await tele.getPhotoProfile(message.chat.id)
-	var groupname = message.chat.title
-	var groupmembers = await bot.telegram.getChatMembersCount(message.chat.id)
-	for (x of message.new_chat_members) {
-		var pp_user = await tele.getPhotoProfile(x.id)
-		var full_name = tele.getUser(x).full_name
-		console.log(chalk.whiteBright('├'), chalk.cyanBright('[  JOINS  ]'), chalk.whiteBright(full_name), chalk.greenBright('join in'), chalk.whiteBright(groupname))
-		await lol.replyWithPhoto({
-			url: `https://telegra.ph/file/f82cc9177ab3ab891fdfe.jpg`,
-		})
-	}
-})
-
-bot.on('left_chat_member', async (lol) => {
-	var message = lol.message
-	var pp_group = await tele.getPhotoProfile(message.chat.id)
-	var pp_user = await tele.getPhotoProfile(message.left_chat_member.id)
-	var pp_group = await tele.getPhotoProfile(message.chat.id)
-	var groupname = message.chat.title
-	var groupmembers = await bot.telegram.getChatMembersCount(message.chat.id)
-	var pp_user = await tele.getPhotoProfile(message.left_chat_member.id)
-	var full_name = tele.getUser(message.left_chat_member).full_name
-	console.log(chalk.whiteBright('├'), chalk.cyanBright('[  LEAVE  ]'), chalk.whiteBright(full_name), chalk.greenBright('leave from'), chalk.whiteBright(groupname))
-	await lol.replyWithPhoto({ url: `https://telegra.ph/file/f82cc9177ab3ab891fdfe.jpg` })
-})
-
 bot.command('start', async (lol) => {
 	user = tele.getUser(lol.message.from)
 	await help.start(lol, user.full_name)
@@ -54,6 +26,16 @@ bot.command('start', async (lol) => {
 bot.command('menu', async (lol) => {
 	user = tele.getUser(lol.message.from)
 	await help.help(lol, user.full_name, lol.message.from.id.toString())
+})
+
+bot.command('tqto', async (lol) => {
+	user = tele.getUser(lol.message.from)
+	await help.tqto(lol, user.full_name, lol.message.from.id.toString())
+})
+
+bot.command('info', async (lol) => {
+	user = tele.getUser(lol.message.from)
+	await help.infobot(lol, user.full_name, lol.message.from.id.toString())
 })
 
 bot.on('callback_query', async (lol) => {
@@ -151,16 +133,16 @@ bot.on('message', async (lol) => {
 		var mediaLink = file_id != '' ? await tele.getLink(file_id) : ''
 
 		switch (command) {
-			case 'help':
+	    case 'help':
 				await help.help(lol, user.full_name, lol.message.from.id.toString())
 				break
+				
 		 case 'ai':
-         case 'openai':
-	          if (args.length == 0) return await reply(`Example: ${prefix + command} siapa itu Megawati?`)
+	          if (args.length == 0) return await reply(`Contoh : ${prefix + command} siapa itu Megawati?`)
 	          query = args.join(' ')
-	          reply(`mohon tunggu sebentar`)
+	          reply(`mohon tunggu sebentar, mungkin ini membutuhkan sedikit waktu...`)
               const configuration = new Configuration({
-              apiKey: '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',
+              apiKey: 'ISI_APIKEY_OPENAI_DISINI',
               });
              const openai = new OpenAIApi(configuration);
              const response = await openai.createChatCompletion({
@@ -171,6 +153,77 @@ bot.on('message', async (lol) => {
              const limitedResponse = aiResponse.slice(0, 4096);
              reply(limitedResponse);
              break;
+             
+       case 'curhat':
+             if (args.length == 0) return await reply(`Contoh : ${prefix + command} aku habis di putusin pacar`)
+             const defaultText = 'tolong jawab curhatan berikut dan berpura-pura lah menjadi seorang teman';
+             const curutliar = 'jika curhatan tersebut konyol, balas jawaban dengan jawaban lucu juga';
+             const userQuery = args.join(' ');
+             const query = `${defaultText}: “${userQuery}”. ${curutliar}`;
+             reply(`sedang mengetik...`);
+             const curhat = new Configuration({
+             apiKey: 'ISI_APIKEY_OPENAI_DISINI',
+             });
+            const curhatt = new OpenAIApi(curhat);
+            const curhattt = await curhatt.createChatCompletion({
+            model: "gpt-3.5-turbo",
+            messages: [{ role: "user", content: query }],
+            });
+            const curhatttt = curhattt.data.choices[0].message.content;
+            const curhattttt = curhatttt.slice(0, 4096);
+            reply(curhattttt);
+            break;
+
+       case 'dokter':
+             if (args.length == 0) return await reply(`Contoh : ${prefix + command} kenapa kepala saya sakit sekali`)
+             const doktergadungan = 'tolong jawab pertanyaan berikut dan berpura pura lah menjadi seorang dokter';
+             const afterdoctor = 'Jika pertanyaan tersebut diluar dari dunia medis atau kedokteran, tidak perlu di tanggapi';
+             const dokterabalabal = args.join(' ');
+             const duktur = `${doktergadungan}: “${dokterabalabal}”. ${afterdoctor}`;
+             reply(`dokter sedang mengetik...`);
+             const dokter = new Configuration({
+             apiKey: 'ISI_APIKEY_OPENAI_DISINI',
+             });
+            const dokterr = new OpenAIApi(dokter);
+            const dokterrr = await dokterr.createChatCompletion({
+            model: "gpt-3.5-turbo",
+            messages: [{ role: "user", content: duktur }],
+            });
+            const dokterrrr = dokterrr.data.choices[0].message.content;
+            const dokterrrrr = dokterrrr.slice(0, 4096);
+            reply(dokterrrrr);
+            break;
+            
+       case 'quotes':
+             const semvak = 'carikan quotes berbahasa indonesia pendek bebas satu saja';
+             const lirik = new Configuration({
+             apiKey: 'ISI_APIKEY_OPENAI_DISINI',
+             });
+            const lirikk = new OpenAIApi(lirik);
+            const lirikkk = await lirikk.createChatCompletion({
+            model: "gpt-3.5-turbo",
+            messages: [{ role: "user", content: semvak }],
+            });
+            const lirikkkk = lirikkk.data.choices[0].message.content;
+            const lirikkkkk = lirikkkk.slice(0, 4096);
+            reply(lirikkkkk);
+            break;
+            
+       case 'pantun':
+             const bogel = 'carikan pantun berbahasa indonesia pendek dengan format 4 bait satu saja';
+             const pantun = new Configuration({
+             apiKey: 'ISI_APIKEY_OPENAI_DISINI',
+             });
+            const pantunn = new OpenAIApi(pantun);
+            const pantunnn = await pantunn.createChatCompletion({
+            model: "gpt-3.5-turbo",
+            messages: [{ role: "user", content: bogel }],
+            });
+            const pantunnnn = pantunnn.data.choices[0].message.content;
+            const pantunnnnn = pantunnnn.slice(0, 4096);
+            reply(pantunnnnn);
+            break;
+    
 
 		}
 	} catch (e) {
