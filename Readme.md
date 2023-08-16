@@ -54,3 +54,7 @@ Click the link above or directly enter the following fund number:
 085369097142
 ```
 </p>
+
+# DOCUMENTATION
+Klik link below to see documentation this bot!
+[documents](https://telegra.ph/Telegram-Bot-Documentation-08-16)
