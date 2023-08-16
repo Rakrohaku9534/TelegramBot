@@ -19,7 +19,7 @@
 > npm i
 ```
 
-## ```Edit config file```
+## ```Edit index file```
 Edit the required value in `index.js`. Get bot token at [`@BotFather`](http://t.me/BotFather).
 ```
 const botToken = 'APIKEY_HERE'
@@ -39,7 +39,7 @@ const bot = new Telegraf(botToken);
 
 <a href="http://chat.whatsapp.com/HjvNhA5PfSS0sJ4ejnLDWp"><img src="https://img.shields.io/badge/Join Official Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
-<a href="https://youtube.com/@BotzAku"><img src="https://img.shields.io/badge/Subscribe BotzAku-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@BotzAku" /><br>
+<a href="https://youtube.com/@BotzAku_Zero"><img src="https://img.shields.io/badge/Subscribe BotzAku-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtube.com/@BotzAku_Zero" /><br>
 
 </p>
 
@@ -49,7 +49,7 @@ const bot = new Telegraf(botToken);
 
 <p align="left">
 
-Klik link Di Atas Atau Langsung Masukkan Nomor Dana Berikut :
+Click the link above or directly enter the following fund number:
 ```
 085369097142
 ```
