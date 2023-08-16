@@ -20,15 +20,10 @@
 ```
 
 ## ```Edit config file```
-Edit the required value in `config.json`. Get bot token at [`@BotFather`](http://t.me/BotFather).
-```json
-{
-    "bot_token": "",
-    "owner": "iikyy",
-    "ownerLink": "https://t.me/OwnerGrub",
-    "version": "1.0.0",
-    "prefix": "/"
-}
+Edit the required value in `index.js`. Get bot token at [`@BotFather`](http://t.me/BotFather).
+```
+const botToken = 'APIKEY_HERE'
+const bot = new Telegraf(botToken);
 ```
 
 ## ```Run the bot```
