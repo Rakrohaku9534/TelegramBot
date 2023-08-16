@@ -56,5 +56,5 @@ Click the link above or directly enter the following fund number:
 </p>
 
 # DOCUMENTATION
-Klik link below to see documentation this bot!
+Click link below to see documentation this bot!
 [documents](https://telegra.ph/Telegram-Bot-Documentation-08-16)
